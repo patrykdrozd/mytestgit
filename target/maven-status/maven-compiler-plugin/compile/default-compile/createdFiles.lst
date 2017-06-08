@@ -1,0 +1,3 @@
+com/patryk/App.class
+com/patryk/configuration/HibernateConfiguration.class
+com/patryk/configuration/SpringConfiguration.class
