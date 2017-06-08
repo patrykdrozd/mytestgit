@@ -45,6 +45,9 @@ public class UserDaoImpl implements UserDao {
         CriteriaQuery<User> userCriteriaQuery = criteriaBuilder.createQuery(User.class);
         Root<User> root = userCriteriaQuery.from(User.class);
         userCriteriaQuery.select(root);
+
+        System.out.println("cos nwoego");
+
 //        userCriteriaQuery.where(criteriaBuilder.like());
     }
 }
